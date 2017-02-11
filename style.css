@@ -1,0 +1,12 @@
+[class^="col"] {
+    border: 1px solid blue;
+}
+
+[class^="col"] img {
+    width: 100%;
+}
+
+.test-img img {
+    border-radius: 50%;
+    border: 3px solid red;
+}
