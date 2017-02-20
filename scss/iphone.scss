@@ -1,0 +1,65 @@
+@mixin circle($radius, $x, $y) {
+    position: relative;
+    left: $x - $radius;
+    top: $y - $radius;
+    border: 1px solid #000;
+    border-radius: $radius;
+    width: 2 * $radius;
+    height: 2 * $radius;
+}
+
+@mixin rectangle($x, $y, $width, $height, $border-width) {
+    position: relative;
+    width: $width;
+    height: $height;
+    top: $y;
+    left: $x;
+    border: $border-width solid #000;
+}
+
+.button {
+    @include circle(15px, 95px, 56px);
+}
+
+.camera {
+    @include circle(4px, 64px, 23px);
+    background-color: black;
+}
+
+.iphone {
+    @include rectangle(6px, 3px, 192px, 400px, 2px);
+}
+
+.screen {
+    @include rectangle(10px, 34px, 170px, 301px, 2px);
+}
+
+.min-earpiece {
+    @include circle(2px, 94px, 14px);
+    background-color: black;
+}
+
+.earpiece {
+    position: relative;
+    top: 13px;
+    left: 80px;
+    width: 30px;
+    height: 0px;
+    border-bottom: 2px solid #000;
+}
+
+.button_0 {
+    @include rectangle(4px, calc(-398px + 55px), 1px, 15px, 1px);
+}
+
+.button_1 {
+    @include rectangle(4px, calc(-398px + 75px), 1px, 30px, 1px);
+}
+
+.button_2 {
+    @include rectangle(4px, calc(-398px + 81px), 1px, 30px, 1px);
+}
+
+.button_3 {
+    @include rectangle(198px, calc(-398px + 15px), 1px, 30px, 1px);
+}

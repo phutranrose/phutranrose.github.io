@@ -1,0 +1,298 @@
+    @import url('https://fonts.googleapis.com/css?family=Anton|Barrio&subset=latin-ext,vietnamese');
+    @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+    @import url('https://fonts.googleapis.com/css?family=Arimo|Gloria+Hallelujah');
+    /*debug for boarder box*/
+    /*
+.container h1 {
+    border: 3px solid green;
+}
+
+.container p1 {
+    border: 3px solid green;
+}
+
+.container .col-lg-12 {
+    border: 3px solid blue;
+}
+
+
+.container,
+.container-fluid {
+    border: 5px solid red;
+    list-style: none;
+}
+
+.container .row.section-j {
+    border: 3px solid red;
+}*/
+    
+    .container.resume {
+        text-align-last: left;
+        line-height: 1.5vw;
+        font-size: 1vw;
+    }
+    
+    span {
+        text-indent: 20px;
+    }
+    
+    h1 {
+        font-family: 'Anton', sans-serif;
+        font-family: 'Barrio', cursive;
+        color: white;
+        font-size: 6vw;
+        line-height: 3em;
+        text-underline-position: below;
+    }
+    
+    p1 {
+        width: 80%;
+        font-size: 3vh;
+        -webkit-filter: blur(0px);
+    }
+    
+    p1:before {
+        width: 5%;
+        content: "";
+        display: inline-block;
+        border: 2px solid pink;
+    }
+    
+    p1:after {
+        width: 5%;
+        content: "";
+        display: inline-block;
+        border: 2px solid pink;
+    }
+    
+    h2 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Arimo', sans-serif;
+        color: black;
+        font-size: 7vw;
+        line-height: 3em;
+        text-underline-position: below;
+    }
+    
+    p2 {
+        color: black;
+        font-size: 2vw;
+    }
+    
+    h3 {
+        color: black;
+        font-size: 3vw;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Arimo', sans-serif;
+    }
+    
+    p {
+        color: black;
+        font-size: 2vw;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Barrio', cursive;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+    
+    h4 {
+        color: black;
+        font-size: 1vw;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .container .row.section-j {
+        height: 290px;
+        width: 100%;
+        position: relative;
+        top: calc(290px / 2 + 0vh);
+    }
+    
+    nav.top-info {
+        height: 80px;
+        overflow: auto;
+        padding: 15px;
+    }
+    
+    nav.top-info>ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav.top-info>ul li {
+        list-style: none;
+        float: right;
+        height: 50PX;
+        width: 50PX;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        line-height: 50px;
+        background-color: blue;
+        border-radius: 50%;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    nav.top-info>ul li>a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav.top-info>ul li>a:hover {
+        height: 50PX;
+        width: 50PX;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 26px;
+        color: blue;
+        background-color: white;
+        float: right;
+        text-align: center;
+        border: 1px solid blue;
+        text-decoration: none;
+    }
+    
+    nav.top-info>ul li .mail {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .jumbotron {
+        height: 90vh;
+        min-height: 450px;
+        background-image: url(images/background2.jpg);
+        color: white;
+        text-align: center;
+        margin-top: ;
+    }
+    
+    .jumbotron.resume {
+        height: 90vh;
+        min-height: 450px;
+        background-image: url(images/R1.jpg);
+    }
+    
+    .jumbotron.food {
+        height: 90vh;
+        min-height: 450px;
+        background-image: url(images/food_h.jpg);
+    }
+    
+    .jumbotron.skill {
+        height: 90vh;
+        min-height: 450px;
+        background-image: url(images/skills2.jpg);
+    }
+    
+    .gravatar {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .gravatar img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid #ddd;
+    }
+    
+    .thumbnail {
+        position: relative;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    img.jill-img {
+        height: 100vh;
+    }
+    /*長條圖*/
+    /*外框：*/
+    
+    .container.resume2 {
+        border: 2px solid rgba(191, 255, 189, 0.81);
+        border-radius: 5px;
+        font-weight: 700;
+        box-shadow: 0px 0px 2px;
+        line-height: 2vw;
+    }
+    
+    .graph {
+        width: 100%;
+        position: inherit;
+        /* IE is dumb */
+        height: 2vh;
+        background-color: #CCC;
+    }
+    /*內框：*/
+    
+    .graph .bar {
+        width: 100%;
+        display: block;
+        position: inherit;
+        height: 2vh;
+        /*粉色內Bar*/
+        background-color: #FF9F9F;
+    }
+    
+    #iphone>.iphone {
+        border-radius: 20px;
+    }
+    
+    #iphone>.iphone .screen {
+        background-image: url(/css/images/iphone.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    /*.thumbnail:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F2AA99;
+    opacity: 0.7;
+    padding: 40px;
+    display: block;
+    width: 800px;
+    height: 600px;
+}
+
+
+.thumbnail:hover:after {
+    background-color: #F2AA99;
+    opacity: 0;
+    border: 0px solid red;
+}
+
+
+
+*/
+    /*.text:after {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid pink;
+}
+
+.text:before {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid pink;
+}*/
+    
+    footer {
+        list-style: none;
+        background-color: beige;
+        background: -webkit-linear-gradient(beige, rgba(239, 11, 11, 0.33));
+        background: -o-linear-gradient(beige, rgba(239, 11, 11, 0.33));
+        background: -moz-linear-gradient((beige, rgba(239, 11, 11, 0.33));
+        background: linear-gradient(beige, rgba(239, 11, 11, 0.33));
+    }
+    
+    footer {
+        border: 2px solid green;
+    }

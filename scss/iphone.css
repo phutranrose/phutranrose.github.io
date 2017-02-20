@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.button {
+    position: relative;
+    left: 80px;
+    top: 41px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.camera {
+    position: relative;
+    left: 60px;
+    top: 19px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+
+.iphone {
+    position: relative;
+    width: 192px;
+    height: 400px;
+    top: 3px;
+    left: 6px;
+    border: 2px solid #000;
+}
+
+.screen {
+    position: relative;
+    width: 170px;
+    height: 301px;
+    top: 34px;
+    left: 10px;
+    border: 2px solid #000;
+}
+
+.min-earpiece {
+    position: relative;
+    left: 92px;
+    top: 12px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    width: 4px;
+    height: 4px;
+    background-color: black;
+}
+
+.earpiece {
+    position: relative;
+    top: 13px;
+    left: 80px;
+    width: 30px;
+    height: 0px;
+    border-bottom: 2px solid #000;
+}
+
+.button_0 {
+    position: relative;
+    width: 1px;
+    height: 15px;
+    top: calc(-398px + 55px);
+    left: 4px;
+    border: 1px solid #000;
+}
+
+.button_1 {
+    position: relative;
+    width: 1px;
+    height: 30px;
+    top: calc(-398px + 75px);
+    left: 4px;
+    border: 1px solid #000;
+}
+
+.button_2 {
+    position: relative;
+    width: 1px;
+    height: 30px;
+    top: calc(-398px + 81px);
+    left: 4px;
+    border: 1px solid #000;
+}
+
+.button_3 {
+    position: relative;
+    width: 1px;
+    height: 30px;
+    top: calc(-398px + 15px);
+    left: 198px;
+    border: 1px solid #000;
+}
+
+
+/*# sourceMappingURL=iphone.css.map */
